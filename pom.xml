@@ -12,6 +12,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <suiteXmlFileDir>src/test/java/web_saucedemo/tests/testng/testsuites/</suiteXmlFileDir>
     </properties>
 
     <build>
@@ -25,14 +27,14 @@
                     <!-- Default test runs -->
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            src/test/java/web_saucedemo/tests/testng/testplans/TP-001_SmokeTest.xml
+                           ${suiteXmlFileDir}TS-001_SmokeTest.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
+ pom.xml
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
