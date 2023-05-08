@@ -53,5 +53,5 @@ This project contains 4 sample test cases that demonstrate how to use Selenium t
 
 This project uses the following Java and Selenium dependencies:
 
-- Selenium Java version 4.6.0
-- TestNG version 7.6.1
+- Selenium Java version 4.9.0
+- TestNG version 7.7.0
