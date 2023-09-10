@@ -15,7 +15,7 @@ Before you can run this project, you must have the following software installed 
 
 This project uses the following dependencies:
 
-- Selenium Java version 4.9.0
+- Selenium Java version 4.12.1
 - TestNG version 7.7.0
 
 ## Installation
