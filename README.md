@@ -19,11 +19,11 @@ This project uses the following dependencies:
 - TestNG version 7.7.0
 
 ## Installation
-1. Clone this repository to your local machine using `git clone https://github.com/marizala/java-selenium.git`
+1. Clone this repository to your local machine.   
+   `git clone https://github.com/marizala/java-selenium.git`
 2. Navigate to the project directory using the command line.
-3. Install the dependencies and run the smoke test plan (configured).  
+3. Install the dependencies and run the smoke test plan (configured).   
    `mvn clean install`
-
 
 ## Tests
 
