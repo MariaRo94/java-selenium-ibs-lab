@@ -11,6 +11,12 @@ Before you can run this project, you must have the following software installed 
 - Apache Maven
 - Google Chrome web browser
 
+## Dependencies
+
+This project uses the following dependencies:
+
+- Selenium Java version 4.9.0
+- TestNG version 7.7.0
 
 ## Installation
 1. Clone this repository to your local machine using `git clone https://github.com/marizala/java-selenium.git`
@@ -49,9 +55,3 @@ This project contains 4 sample test cases that demonstrate how to use Selenium t
    E.g. `mvn test -DsuiteXmlFiles=src/test/java/web_saucedemo/tests/testng/testplans/TP-002_Regression.xml`
 
 
-## Dependencies
-
-This project uses the following Java and Selenium dependencies:
-
-- Selenium Java version 4.9.0
-- TestNG version 7.7.0
