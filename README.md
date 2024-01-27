@@ -7,7 +7,7 @@ This project demonstrates the use of Selenium WebDriver with Java to automate a 
 ### 🚧 Prerequisites
 Before you can run this project, you must have the following software installed on your computer:
 
-- Java Development Kit (JDK) version 8 or later
+- Java Development Kit (JDK) version 11 or later
 - Apache Maven
 - Google Chrome web browser
 
