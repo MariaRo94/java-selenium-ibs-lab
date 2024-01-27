@@ -31,8 +31,8 @@ This project uses the following dependencies:
 
 ### 🌐 Application under test
 * https://www.saucedemo.com/ <br/>
-  Note This website is being used for testing purposes, and I, the tester, acknowledge that I do not own or have any rights to this website. 
-  Testing activities are solely demo purposes only.
+  Note that this website is being used for testing purposes, and I, the tester, acknowledge that I do not own or have any rights to this website. 
+  Testing activities are for demo purposes only.
 ### 👨🏼‍🔬Tests
 
 This project contains 4 sample test cases that demonstrate how to use Selenium to interact with web pages. 
@@ -52,7 +52,7 @@ This project contains 4 sample test cases that demonstrate how to use Selenium t
 
 #### 🚦 Running a test case
 1. Navigate to the project directory using command line.
-2. Run the following command but replace <test_case> with the name of the test case.   
+2. Run the following command but replace `<test_case>` with the name of the test case.   
    ```sh
    mvn test -Dtest=<test_case>
    ```  
@@ -60,7 +60,7 @@ This project contains 4 sample test cases that demonstrate how to use Selenium t
 
 #### 🚦 Running a test plan
 1. Navigate to the project directory using command line.
-2. Run the following command but replace <test_plan> with the file path of the test suite xml files.  
+2. Run the following command but replace `<test_plan>` with the file path of the test suite xml files.  
    ```sh
    mvn test -DsuiteXmlFiles=<test_plan>
    ```
