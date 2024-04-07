@@ -1,11 +1,11 @@
-package web_saucedemo.tests.testng.testcases;
+package web_food_demo.tests.testng.testcases;
 
 import automation.enums.Browsers;
 import automation.selenium.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import web_saucedemo.config.EnvironmentVariables;
+import web_food_demo.config.EnvironmentVariables;
 
 import java.time.Duration;
 
@@ -14,7 +14,7 @@ public abstract class BaseTest {
     // TODO: Externalise config data
     protected WebDriver driver;
     private Browsers browser = Browsers.CHROME;
-    private String url = "https://www.saucedemo.com/";
+    private String url = "http://localhost:8080/food";
 
     @BeforeMethod
     public void setup() {

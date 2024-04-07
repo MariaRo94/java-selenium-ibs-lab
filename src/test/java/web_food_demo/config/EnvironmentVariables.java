@@ -1,4 +1,4 @@
-package web_saucedemo.config;
+package web_food_demo.config;
 
 public class EnvironmentVariables {
 

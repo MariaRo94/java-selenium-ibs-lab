@@ -21,7 +21,7 @@ This project uses the following dependencies:
 ### 🛠️ Installation
 1. Clone this repository to your local machine.   
    ```sh
-   git clone https://github.com/marizala/java-selenium.git
+   git clone
    ```
 2. Navigate to the project directory using the command line.
 3. Install the dependencies and run the smoke test plan (configured).   
@@ -30,18 +30,15 @@ This project uses the following dependencies:
    ```
 
 ### 🌐 Application under test
-* https://www.saucedemo.com/ <br/>
-  Note that this website is being used for testing purposes, and I, the tester, acknowledge that I do not own or have any rights to this website. 
-  Testing activities are for demo purposes only.
+* http://localhost:8080/food <br/>
+  Note that this website is being used for testing purposes.
 ### 👨🏼‍🔬Tests
 
-This project contains 4 sample test cases that demonstrate how to use Selenium to interact with web pages. 
+This project contains 2 sample test cases that demonstrate how to use Selenium to interact with web pages. 
 
 #### 🧪 Test Cases
-- `TC001_AddToCart_Checkout`: Adds product to the cart and verifies that checkout is successful.
-- `TC002_AddToCart_Count`: Adds product to the cart and verifies that basket counter is correct.
-- `TC003_LockedOutUser`: Invalid login and verifies that an error message is displayed.
-- `TC004_Logout`: User successfully logging in and out of the application.
+- `TC01_AddProductToList`: Adds product to the list and verifies that is successful.
+- `TC02_RemoveProductFromList`: Adds product to the cart and then removes that product then - verifies that is correct.
 
 #### 📝 Test Plans
 - `TP-001_SmokeTest.xml`: Includes one test case that covers the basic functionality of the web app.
@@ -64,5 +61,5 @@ This project contains 4 sample test cases that demonstrate how to use Selenium t
    ```sh
    mvn test -DsuiteXmlFiles=<test_plan>
    ```
-   E.g. `mvn test -DsuiteXmlFiles=src/test/java/web_saucedemo/tests/testng/testplans/TP-002_Regression.xml`
+   E.g. `mvn test -DsuiteXmlFiles=src/test/java/web_food_demo/tests/testng/testplans/TP-002_Regression.xml`
 

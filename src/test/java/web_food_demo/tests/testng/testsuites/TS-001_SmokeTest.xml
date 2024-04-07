@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SauceDemo - Swag Labs">
+<suite name="IBS Labs - add remove element">
     <test name="Smoke Test">
         <classes>
-            <class name="web_saucedemo.tests.testng.testcases.TC001_AddToCart_Checkout"></class>
+            <class name="web_food_demo.tests.testng.testcases.TC01_AddProductToList"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

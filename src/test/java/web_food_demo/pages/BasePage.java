@@ -1,4 +1,4 @@
-package web_saucedemo.pages;
+package web_food_demo.pages;
 
 import org.openqa.selenium.WebDriver;
 

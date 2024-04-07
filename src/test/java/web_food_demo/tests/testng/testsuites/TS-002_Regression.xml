@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IBS Labs - add remove element">
+    <test name="Regression" parallel="classes" thread-count="10">
+        <classes>
+            <class name="web_food_demo.tests.testng.testcases.TC01_AddProductToList"></class>
+            <class name="web_food_demo.tests.testng.testcases.TC02_RemoveProductFromList"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
