@@ -48,7 +48,7 @@ public class ProductsPage extends BasePage {
         Thread.sleep(100);
 
         webDriverWait
-                .until(ExpectedConditions.elementToBeClickable(By.id("name"))) //
+                .until(ExpectedConditions.elementToBeClickable(By.id("name")))
                 .sendKeys(productToAdd);
 
         Thread.sleep(100);
