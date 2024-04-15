@@ -12,6 +12,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <allure-testng.version>2.13.2</allure-testng.version>
+        <cucumber.version>7.2.3</cucumber.version>
 
         <suiteXmlFileDir>src/test/java/web_food_demo/tests/testng/testsuites/</suiteXmlFileDir>
     </properties>
@@ -27,7 +29,7 @@
                     <!-- Default test runs -->
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                           ${suiteXmlFileDir}TS-001_SmokeTest.xml
+                            ${suiteXmlFileDir}TS-001_SmokeTest.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
@@ -52,6 +54,40 @@
             <version>4.12.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.6.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure-testng.version}</version>
+        </dependency>
+
     </dependencies>
+
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allure-maven.version}</version>
+            </plugin>
+        </plugins>
+    </reporting>
 
 </project>
